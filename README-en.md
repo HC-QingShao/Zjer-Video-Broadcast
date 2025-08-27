@@ -4,7 +4,7 @@
 
 ##  👏 Welcome!
 
-This program mainly implements the Jianghui video broadcasting function, and more functions will be developed in the future as the version progresses.
+This program mainly implements the Zjer video broadcasting function, and more functions will be developed in the future as the version progresses.
 
 ##  👀 Website Highlights
 
