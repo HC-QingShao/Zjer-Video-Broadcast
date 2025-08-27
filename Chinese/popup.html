@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>控制台</title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .status-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .status-indicator {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .status-enabled {
+      background-color: #4CAF50;
+    }
+    .status-disabled {
+      background-color: #f44336;
+    }
+    .settings {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+    }
+    .delay-setting {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    input[type="number"] {
+      width: 60px;
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      text-align: center;
+      color: #7f8c8d;
+    }
+    h3 {
+      margin: 0;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h3>之江汇教育系统视频自动连播控制台</h3>
+  </div>
+  
+  <div class="settings">
+    <div class="delay-setting">
+      <label for="delayTime">切换延迟(秒):</label>
+      <input type="number" id="delayTime" min="0" max="10" value="0">
+    </div>
+  </div>
+  
+  <button id="toggleButton">启用</button>
+  
+  <div class="footer">
+    <p>by Qingshao</p>
+    <p>Github 仓库：https://github.com/HC-QingShao/Zjer-Video-Broadcast</p>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
