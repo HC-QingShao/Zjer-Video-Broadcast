@@ -1,6 +1,6 @@
 # 之江汇教育系统视频自动连播
 
-[简体中文](https://github.com/HC-QingShao/Zjer-Video-Broadcast/README.md)    [English](https://github.com/HC-QingShao/Zjer-Video-Broadcast/README-en.md)
+[简体中文](https://github.com/HC-QingShao/Zjer-Video-Broadcast/blob/main/README.md)    [English](https://github.com/HC-QingShao/Zjer-Video-Broadcast/blob/main/README-en.md)
 
 ## 👏欢迎!
 
