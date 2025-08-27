@@ -1,5 +1,7 @@
 # 之江汇教育系统视频自动连播
 
+[简体中文](https://github.com/HC-QingShao/Zjer-Video-Broadcast/README.md)[English](https://github.com/HC-QingShao/Zjer-Video-Broadcast/README-en.md)
+
 ## 👏欢迎!
 
 本程序主要实现之江汇视频连播功能，后续随版本推进会制作更多功能。
